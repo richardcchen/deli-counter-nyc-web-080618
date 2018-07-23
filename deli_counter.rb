@@ -5,9 +5,11 @@ def line(array)
   if array.size() == 0
     puts "The line is currently empty."
   else
-    array.each {
-    newarray = 
-    puts "The line is currently: #{array}"
+    counter = 0
+    array.each do |i|
+      newarray = "#{counter}. #{i}"
+    end
+    puts "The line is currently: #{newarray}"
   end
     
 end
