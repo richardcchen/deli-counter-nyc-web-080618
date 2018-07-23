@@ -9,6 +9,7 @@ def line(array)
     newarray = []
     array.each do |i|
       newarray = "#{counter}. #{i}"
+      counter += 1
     end
     puts "The line is currently: #{newarray}"
   end
