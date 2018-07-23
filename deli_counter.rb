@@ -8,7 +8,7 @@ def line(array)
     counter = 0
       lin = "The line is currently: "
     array.each do |i|
-      lin = lin + "#{counter + 1}. #{i}"
+      lin = lin + "#{counter + 1}. #{i} "
       counter += 1
     end
     puts lin
