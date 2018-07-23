@@ -6,12 +6,12 @@ def line(array)
     puts "The line is currently empty."
   else
     counter = 0
-    newarray = []
+      lin = "The line is currently: "
     array.each do |i|
-      newarray[counter] = "#{counter + 1}. #{i}"
+      lin = lin + "#{counter + 1}. #{i}"
       counter += 1
     end
-    puts "The line is currently: #{newarray}"
+    puts lin
   end
     
 end
