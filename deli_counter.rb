@@ -6,6 +6,7 @@ def line(array)
     puts "The line is currently empty."
   else
     counter = 0
+    newarray = []
     array.each do |i|
       newarray = "#{counter}. #{i}"
     end
